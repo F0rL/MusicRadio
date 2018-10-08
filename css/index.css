@@ -93,7 +93,9 @@ main .aside .iconfont:hover{
 main .aside .iconfont.active{
   color: #ff5722;
 }
-
+main .aside .collected{
+  color: rgba(255, 64, 64, 0.8);
+}
 main .detail {
   margin-left: 56vh;
   color: #fff;
@@ -143,9 +145,9 @@ main .area-bar .bar-progress {
   position: absolute;
   height: .8vh;
   width: 10%;
-  transition: width .8s;
   background-color: #fff;
   border-radius: .2vh;
+  transition: width .8s;
 }
 
 main .author {
