@@ -170,7 +170,7 @@ var Fm = {
   loadMusic: function(){
     var _this = this
     console.log('loading-----')
-    $.getJSON('//jirenguapi.applinzi.com/fm/getSong.php', {channel: this.channelId})
+    $.getJSON('https://jirenguapi.applinzi.com/fm/getSong.php', {channel: this.channelId})
     .done(function(ret){
       // console.log(ret)
       _this.song = ret['song'][0]
@@ -181,7 +181,7 @@ var Fm = {
 
   loadLyric(){
     var _this = this
-    $.getJSON('//jirenguapi.applinzi.com/fm/getLyric.php', {sid: this.song.sid})
+    $.getJSON('https://jirenguapi.applinzi.com/fm/getLyric.php', {sid: this.song.sid})
     .done(function(ret){
       var lyric = ret.lyric
       var lyricObj = {}
