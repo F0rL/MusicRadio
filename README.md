@@ -1,7 +1,7 @@
-### [网页电台](https://f0rl.github.io/MusicRadio/)
+### [kuma的网页电台](https://f0rl.github.io/MusicRadio/)
 #### 功能
 提供了歌单选择、歌曲播放暂停下一曲、歌曲信息显示、背景图更改，能适配大尺寸显示变化。
-#### 技术
+#### 技术栈
 - vh\vw实现设备屏幕适配
 - @media实现响应式布局
 - 使用jQuery对DOM对象进行操作
@@ -41,5 +41,9 @@ $.fn.boomText = function(type){
   }, 300)
 }
 ```
+
+#### 关键字
+CSS3、 jQuery、响应式、操作DOM
+
 #### 预览图
 ![](http://ww1.sinaimg.cn/large/90864b23gy1fw15qwakkvj218f0kxh01.jpg)
